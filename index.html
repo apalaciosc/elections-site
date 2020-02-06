@@ -2,6 +2,11 @@
 layout: default
 ---
 
-<h2>Main Page</h2>
+<h2>Elecciones en lationamérica para el año 2020</h2>
 
-Main content goes here.
+<ul>
+  {% for election in site.elections %}
+    <li><a href="{{ election.url }}">{{ election.name }}</a></li>
+  {% endfor %}
+
+</ul>
