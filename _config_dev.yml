@@ -3,8 +3,8 @@ title: Elecciones Lationamérica
 email: apalacioscarrillo@gmail.com
 description: >
   A guide to getting started with Jekyll.
-baseurl: ""
-url: "https://apalaciosc.github.io"
+baseurl: ''
+url: 'http://localhost:4000'
 twitter_username: apalaciosc
 github_username: apalaciosc
 # Build Settings
