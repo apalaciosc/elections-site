@@ -1,5 +1,5 @@
 # Site Settings
-title: Elections Site
+title: Elecciones Lationamérica
 email: apalacioscarrillo@gmail.com
 description: >
   A guide to getting started with Jekyll.
@@ -13,3 +13,6 @@ sass:
 include: ['_pages']
 kramdown:
   input: GFM
+collections:
+  elections:
+    output: true
