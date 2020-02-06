@@ -6,7 +6,7 @@ layout: default
 
 <ul>
   {% for election in site.elections %}
-    <li><a href="{{ prepend: site.baseurl }}{{ election.url }}">{{ election.name }}</a></li>
+    <li><a href="{{ site.baseurl }}{{ election.url }}">{{ election.name }}</a></li>
   {% endfor %}
 
 </ul>
